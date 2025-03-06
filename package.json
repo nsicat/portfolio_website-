@@ -1,0 +1,8 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Nico Sicat's Portfolio",
+  "scripts": {
+    "build": "python3 build.py"
+  }
+}

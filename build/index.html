@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nico Sicat - Portfolio</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="/" class="nav-link">nico</a>
+        </div>
+        <div class="nav-right">
+            <a href="https://github.com/nicosicat" target="_blank" class="nav-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/nicosicat" target="_blank" class="nav-link">LinkedIn</a>
+        </div>
+    </nav>
+
+    <main>
+        
+<section id="hero" class="section-container">
+    <div class="hero-content">
+        <h1>A TECH-DRIVEN PROBLEM SOLVER READY TO INNOVATE. OPEN FOR HIRE.</h1>
+    </div>
+</section>
+
+<section id="about" class="section-container">
+    <div class="section-header">
+        <h2>About Me</h2>
+        <div class="section-line"></div>
+    </div>
+    <div class="about-content">
+        <div class="about-image">
+            <img src="/static/images/IMG_7117.jpg" alt="Nico Sicat with the Oregon Duck mascot" class="profile-image">
+        </div>
+        <div class="about-text">
+            <p class="about-intro">I am a junior studying Computer Science at the University of Oregon with a concentration in cybersecurity and networking.</p>
+            
+            <div class="experience-section">
+                <h3>Experience</h3>
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <h4>Security Systems Specialist</h4>
+                        <p class="experience-meta">University of Oregon Housing IT, Eugene, OR | June 2023 - Present</p>
+                        <ul class="experience-details">
+                            <li>Manage and troubleshoot access control systems (AMAG Symmetry, LenelS2, Onguard) for 300 staff and 4,200 students</li>
+                            <li>Perform system integrity checks, firmware updates, and network management to ensure smooth operations of ID cards and wireless locks</li>
+                            <li>Deliver customer support, resolving access issues with a 90% first-contact resolution rate</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <h4>Accessible Technology Assistant</h4>
+                        <p class="experience-meta">UO Accessibility Education Center, Eugene, OR | September 2023 - Present</p>
+                        <ul class="experience-details">
+                            <li>Convert academic content into accessible formats using specialized software and ensure compliance with ADA and WCAG standards</li>
+                            <li>Collaborate with faculty to modify course materials, improving accessibility for students with disabilities in various academic fields</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <h4>Educational Assistant</h4>
+                        <p class="experience-meta">UO Accessibility Education Center, Eugene, OR | September 2023 - June 2024</p>
+                        <ul class="experience-details">
+                            <li>Provide one-on-one assistance to a student with physical disabilities, adapting classroom environments and materials for computer science courses</li>
+                            <li>Utilize assistive technologies to ensure equal access to course content</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="section-container">
+    <div class="section-header">
+        <h2>Projects</h2>
+        <div class="section-line"></div>
+    </div>
+    <div class="projects-grid">
+        <div class="project-card">
+            <h3>Global Infection Simulator</h3>
+            <p class="project-description">
+                A Python-based simulation that models the spread of infections across different regions,
+                taking into account various factors such as population density, travel patterns, and
+                intervention measures.
+            </p>
+            <div class="project-features">
+                <h4>Key Features:</h4>
+                <ul>
+                    <li>Interactive visualization of infection spread</li>
+                    <li>Customizable parameters for different scenarios</li>
+                    <li>Real-time statistics and graphs</li>
+                    <li>Multiple intervention strategy testing</li>
+                </ul>
+            </div>
+            <div class="project-tech">
+                <h4>Technologies Used:</h4>
+                <ul>
+                    <li>Python</li>
+                    <li>NumPy & Pandas</li>
+                    <li>Matplotlib</li>
+                    <li>Pygame for visualization</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section-container">
+    <div class="section-header">
+        <h2>Contact</h2>
+        <div class="section-line"></div>
+    </div>
+    <div class="contact-content">
+        <p>Feel free to reach out if you'd like to connect!</p>
+        <form id="contact-form" action="/contact" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<div class="development-notice">
+    <p>This website is still under development. More features and content coming soon!</p>
+</div>
+
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/nsicat" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/nicosicat" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2025 Nico Sicat. All rights reserved.</p>
+    </footer>
+
+    <script src="/static/js/main.js"></script>
+    
+</body>
+</html>
